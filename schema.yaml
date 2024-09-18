@@ -1,0 +1,11 @@
+columns:
+- id
+- age
+- salary
+- date_of_joining
+- department
+- email
+- city
+- performance_score
+- gender
+- phone_number
