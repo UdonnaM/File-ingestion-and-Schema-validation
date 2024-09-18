@@ -4,8 +4,8 @@
 The project involved testing various methods for reading a large dataset, performing data validation, and saving the data in a specified format.
 
 **Methods of Reading Files:**
-Pandas: The file was read in 47 seconds, demonstrating a relatively fast performance.
-Dask: The file took 1 minute and 4 seconds to read. The slower performance compared to Pandas may be attributed to the overhead involved in Dask's parallel processing for this specific dataset size and configuration.
+Pandas: The file was read in 53.63 seconds, demonstrating a relatively fast performance.
+Dask: The file took 76.38 seconds to read. The slower performance compared to Pandas may be attributed to the overhead involved in Dask's parallel processing for this specific dataset size and configuration.
 Modin and Ray: Both methods encountered errors and were unable to process the file due to the large size of the dataset and compatibility issues.
 
 **Basic Validation on Data Columns:**
